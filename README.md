@@ -49,30 +49,42 @@ portfolio-chatbot/
 ## ⚙️ Setup & Run Locally
 
 ### 1️⃣ Clone the repo
+```
 git clone https://github.com/Za-heer/Portfolio-Bot.git
 cd portfolio-chatbot
+```
 
 ### 2️⃣ Create a virtual environment
+```
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
+```
 
 ### 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Add .env file
 Create a .env file in the root folder and add:
+```
 HF_API_TOKEN=your_huggingface_token
 HF_LLM_MODEL=HuggingFaceTB/SmolLM3-3B
 HF_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 RAG_INDEX_DIR=data/faiss_index
+```
 
 ### 5️⃣ Build the FAISS index
+```
 python -m chat.rag
+```
 Then type any debug query to verify chunks are loaded:
 Enter query (or 'exit'): projects
 
 ### 6️⃣ Run the FastAPI server
+```
 uvicorn chat.app:app --reload
+```
 Visit the API docs at:
 👉 http://127.0.0.1:8000/docs
 
