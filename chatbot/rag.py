@@ -20,7 +20,7 @@ EMBED_MODEL = os.getenv("HF_EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-
 INDEX_DIR = os.getenv("RAG_INDEX_DIR", "data/faiss_index")
 INDEX_FILE = os.path.join(INDEX_DIR, "index.faiss")
 META_FILE = os.path.join(INDEX_DIR, "meta.pkl")
-EMB_FILE = os.path.join(INDEX_DIR, "embeddings.npy")   # saved numpy embeddings (raw, not normalized)
+EMB_FILE = os.path.join(INDEX_DIR, "embeddings.npy")
 
 os.makedirs(INDEX_DIR, exist_ok=True)
 

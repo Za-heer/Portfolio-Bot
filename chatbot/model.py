@@ -28,7 +28,6 @@ def _parse_generation_response(resp):
         text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
         return text
 
-    # Fallbacks for non-standard responses
     if isinstance(data, list) and len(data):
         if "generated_text" in data[0]:
             return data[0]["generated_text"]

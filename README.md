@@ -109,7 +109,7 @@ Or integrate the ready-made chat widget from the Chatbot.jsx component.
 ---
 ## 🧩 Example Conversation
 User: “Tell me about your latest project.”
-Bot: “My latest project is a Code Analyzer built using CodeBERT and Pylint. It analyzes .py and .ipynb files to detect code issues and provide quality insights.”
+Bot: “My latest project is an AI-powered customer support chatbot using Retrieval-Augmented Generation (RAG) with Hugging Face models and VectorDB.”
 
 
 ---

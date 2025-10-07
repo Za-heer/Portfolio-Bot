@@ -9,7 +9,7 @@ from .rag import RAGStore
 from .model import LLMClient
 from .memory import ConversationMemory
 
-# instantiate
+
 app = FastAPI(title="Portfolio Chatbot (RAG + HF Inference)")
 
 rag = RAGStore(portfolio_path="data/portfolio.json")

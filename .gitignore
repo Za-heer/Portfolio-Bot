@@ -62,7 +62,7 @@ transformers_cache/
 data/*.csv
 data/*.json
 data/*.txt
-!data/portfolio.json  # keep portfolio data
+!data/portfolio.json  # keep your portfolio data
 uploads/
 temp/
 tmp/
