@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+env_old/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & Cache
+*.log
+*.out
+*.pid
+*.dat
+*.db
+*.sqlite3
+*.sqlite
+*.cache/
+.cache/
+__pycache__/
+instance/
+
+# FAISS index or model caches
+*.faiss
+*.bin
+*.pt
+*.pkl
+*.npy
+*.npz
+
+# Hugging Face cache
+~/.cache/huggingface/
+~/.huggingface/
+hf_cache/
+transformers_cache/
+
+# Data files
+data/*.csv
+data/*.json
+data/*.txt
+!data/portfolio.json  # keep portfolio data
+uploads/
+temp/
+tmp/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Render / Deployment
+*.tar.gz
+*.zip
+
+# Environment variables
+.env
+.env.*
