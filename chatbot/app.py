@@ -1,5 +1,6 @@
 import os
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 from dotenv import load_dotenv
@@ -11,6 +12,15 @@ from .memory import ConversationMemory
 
 
 app = FastAPI(title="Portfolio Chatbot (RAG + HF Inference)")
+
+# ✅ CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can set to your domain later
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 rag = RAGStore(portfolio_path="data/portfolio.json")
 try:
