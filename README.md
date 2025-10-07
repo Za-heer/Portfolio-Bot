@@ -33,20 +33,16 @@ This chatbot allows visitors to chat conversationally about Zaheer’s projects,
 ## 📁 Project Structure
 
 portfolio-chatbot/
-├──chatbot/
-│  ├──app.py # FastAPI main entry
-│  ├── model.py # LLM client (Hugging Face Inference API)
-│  ├── rag.py # RAG + FAISS embedding retrieval
-│  └── memory.py # Conversation memory management
-│
+├── chatbot/
+│   ├── app.py          # FastAPI main entry point
+│   ├── model.py        # LLM client (Hugging Face Inference API)
+│   ├── rag.py          # RAG + FAISS embedding retrieval
+│   └── memory.py       # Conversation memory management
 ├── data/
-│ └── portfolio.json # Portfolio data source
-│
-├── requirements.txt
-├── run.py
-└── README.md
-
----
+│       └── portfolio.json # Portfolio data source
+├── requirements.txt # Project dependencies
+├── run.py              # Script to run the application
+└── README.md           # Project documentation
 
 ## ⚙️ Setup & Run Locally
 
