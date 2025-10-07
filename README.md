@@ -82,9 +82,13 @@ Visit the API docs at:
 1. Push code to GitHub
 2. Create a new Render Web Service
 3. Set Build Command:
+   ```
    pip install -r requirements.txt
+   ```
 4. Start Command:
+   ```
    uvicorn chat.app:app --host 0.0.0.0 --port 10000
+   ```
 5. Add environment variables from .env in Render dashboard.
 6. Deploy and copy the public API URL (e.g. https://portfolio-chatbot.onrender.com/chat).
    
@@ -93,6 +97,7 @@ Visit the API docs at:
 ## 💬 Frontend Integration (Next.js / React)
 Once deployed, add this chatbot to your portfolio:
 
+```
 const res = await fetch("https://portfolio-chatbot.onrender.com/chat", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
@@ -100,6 +105,7 @@ const res = await fetch("https://portfolio-chatbot.onrender.com/chat", {
 });
 const data = await res.json();
 console.log(data.response);
+```
 
 Or integrate the ready-made chat widget from the Chatbot.jsx component.
 
