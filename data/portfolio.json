@@ -1,0 +1,116 @@
+{
+  "about": {
+    "name": "Zaheer Khan",
+    "title": "AI/ML Engineer | Data Scientist",
+    "summary": "I am a final-semester statistics student with hands-on experience in Data Science, Machine Learning, and Web Development. Currently interning at a tech company, building projects that combine AI, NLP, and full-stack development. Passionate about solving real-world problems with data-driven solutions.",
+    "about_me" : "I’m Zaheer Khan, an AI Engineer with a foundation in BS Statistics, web development, and advanced training in Artificial Intelligence & Data Science. My expertise spans LLMs, Generative & Agentic AI, NLP, CV, ML/DL, Prompt Engineering, RAG, and deployment tools like MLflow, Docker, and FastAPI. Alongside this, I also have hands-on experience in MERN stack development. <br /> <br /> I’m passionate about building intelligent systems that merge data, AI, and real-world applications, and my long-term goal is to become an AI expert and launch my own AI-driven startup.",
+    "my_journey": "Statistics Foundation → Began my academic journey with a BS in Statistics, building strong analytical and problem-solving skills. Web Development → Completed a 1-year course in MERN stack, gaining experience in building scalable and interactive web applications. AI & Data Science → Transitioned into AI & Data Science, where I learned machine learning, deep learning, NLP, and computer vision. AI Engineer → Currently working on Generative & Agentic AI, LLMs, and AI deployment, with projects focused on fine-tuning, RAG pipelines, and intelligent systems. Future Vision → Striving to become an AI expert and eventually found my own startup to deliver impactful AI solutions."
+
+  },
+
+  "skills": {
+    "programming_languages": ["Python", "JavaScript", "SQL", "R"],
+    "data_science": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "TensorFlow", "PyTorch"],
+    "nlp": ["Hugging Face Transformers", "BERT", "DistilBERT", "Text Preprocessing", "Sentiment Analysis"],
+    "web_development": ["HTML", "CSS", "JavaScript", "React", "Flask", "FastAPI", "Streamlit"],
+    "tools": ["Git", "GitHub", "Google Colab", "VS Code", "Jupyter Notebook"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
+    "deployment": ["Vercel", "Hugging Face Spaces", "Streamlit Cloud"]
+  },
+
+  "education": [
+    {
+      "degree": "BS Statistics",
+      "institution": "FUUAST University",
+      "duration": "2021 - 2025",
+      "highlights": [
+        "Specialized in statistical modeling, probability, and data analysis",
+        "Capstone project on predictive modeling in healthcare"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Data Science Intern",
+      "company": "SMIT",
+      "duration": "July 2025 – Present",
+      "responsibilities": [
+        "Worked on NLP models using Hugging Face and Transformers",
+        "Built end-to-end ML pipelines for classification tasks",
+        "Created visualization dashboards for business insights"
+      ]
+    },
+    {
+      "role": "Web Developer (Freelance)",
+      "duration": "2022 – 2024",
+      "responsibilities": [
+        "Developed responsive websites using React and Flask",
+        "Deployed projects on Vercel and Streamlit Cloud",
+        "Integrated APIs and built dynamic user interfaces"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Chest X-ray Pneumonia Detection",
+      "description": "Built a CNN model using TensorFlow to classify chest X-rays as Normal or Pneumonia. Deployed the model using Flask and tested on real-world images.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "TensorFlow / Keras",
+        "NumPy, Pillow",
+        "HTML, CSS, Jinja2",
+        "Render"
+    ]
+    },
+    {
+      "name": "Customer Support Chatbot",
+      "description": "Fine-tuned DistilBERT multilingual model on a Kaggle dataset to build a customer support chatbot that answers queries naturally.",
+      "technologies": ["Python",
+        "FastAPI",
+        "HuggingFace",
+        "VectorDB(Pinecorn)",
+        "React",
+        "Tailwind CSS"]
+    },
+    {
+      "name": "Code Analyzer",
+      "description": "Developed a tool using CodeBERT + Pylint to analyze Python and Jupyter Notebook files for code quality and bug detection. Deployed via Streamlit.",
+      "technologies": ["CodeBERT", "Streamlit", "Python", "Pylint"]
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Personal portfolio website built with React and deployed on Vercel. Showcased projects, skills, and achievements with integrated chatbot.",
+      "technologies": ["React", "Vercel", "JavaScript", "TailwindCSS"]
+    },
+    {
+      "name": "Movie Recommender",
+      "description": "Movie Recommendation System built with FastAPI, Bootstrap, and Python. The app allows users to search and select movies, then provides top 5 recommendations using a content-based filtering model. Integrated with TMDB API for fetching movie posters. Deployed on Render with a clean and responsive UI.",
+      "technologies": ["FastAPI",
+        "Python",
+        "TMDB API",
+        "Bootstrap",
+        "Jinja2",
+        "Uvicorn",
+        "Render"]
+    }
+  ],
+
+  "achievements": [
+    "Contributor Tier on Kaggle",
+    "Completed Machine Learning and Deep Learning specializations",
+    "Built AI-powered OMR sheet answer detection model",
+    "Created sentiment analysis tool using Twitter RoBERTa model"
+  ],
+
+  "contact": {
+    "email": "mydocument783@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/za-heer-ali/",
+    "huggingFace": "https://huggingface.co/Za-heer",
+    "github": "https://github.com/Za-heer",
+    "kaggle": "https://www.kaggle.com/zaheerbalti",
+    "WhatsApp/contact_no": "+92341-2324184"
+  }
+}

@@ -58,15 +58,6 @@ instance/
 hf_cache/
 transformers_cache/
 
-# Data files
-data/*.csv
-data/*.json
-data/*.txt
-!data/portfolio.json  # keep your portfolio data
-uploads/
-temp/
-tmp/
-
 # Jupyter notebooks
 .ipynb_checkpoints/
 
