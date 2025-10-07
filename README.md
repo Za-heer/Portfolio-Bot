@@ -125,6 +125,7 @@ Or integrate the ready-made chat widget from the Chatbot.jsx component.
 ---
 ## 🧩 Example Conversation
 User: “Tell me about your latest project.”
+
 Bot: “My latest project is an AI-powered customer support chatbot using Retrieval-Augmented Generation (RAG) with Hugging Face models and VectorDB.”
 
 
@@ -132,7 +133,9 @@ Bot: “My latest project is an AI-powered customer support chatbot using Retrie
 ## 🧑‍💻 Author
 ### Zaheer Khan
 🌐 Portfolio: https://zaheer-portfolio-786.vercel.app/
+
 💼 GitHub: Za-heer
+
 🧠 Focus: Data Science | AI | Web Development
 
 
